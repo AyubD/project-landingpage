@@ -25,13 +25,23 @@
     color: #e5e7eb;
 }
 
+.heromaintext {
+    width: 300px;
+}
+
+.herosecondarytext {
+    width: 400px;
+}
+
 .button {
     background-color: #3882f6;
     text-align: center;
     padding: 5px;
-    margin: 10px;
-    width: 30px;
-    height: 40px;
+    margin-right: 100px;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
 
 }
 
@@ -47,7 +57,24 @@ a {
 
 .headerlinktext ul {
     display: flex;
+    list-style: none;
     padding: 10px;
     margin: 0px;
     gap: 20px;
+}
+
+.midsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 400px;
+    margin-right: 40px;
 }
