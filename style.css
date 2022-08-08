@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .topsection {
     background-color: #1f2937;
     font-style: hero;
@@ -80,7 +84,7 @@ a {
     margin-right: 40px;
     border: 5px solid #3882f6;
     border-radius: 15px;
-    width: 200px;
+    width: 300px;
 }
 
 .image img {
@@ -93,8 +97,8 @@ a {
 .midsection1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 .container {
@@ -110,4 +114,58 @@ a {
 .caption {
     display: block;
     text-align: center;
+    padding-right: 30px;
+ }
+
+ .quotation {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .thorquote {
+    display: flex;
+    font: light italic;
+    font-size: 36px;
+    width: 950px;
+    padding-bottom: 50px;
+ }
+
+ figcaption {
+    font-weight: 800;
+ }
+
+ .bottomsection {
+    background-color: white;
+ }
+
+ .signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 100px;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+ }
+
+.signupbutton {
+    background-color: #3882f6;
+    width: 120px;
+    height: 25px;
+    border-radius: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+ }
+
+ .footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 30px;
+    color: white;
  }
